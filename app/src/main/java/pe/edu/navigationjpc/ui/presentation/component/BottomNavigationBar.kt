@@ -29,7 +29,8 @@ fun BottomNavigationBar(navController: NavHostController) {
     val items = listOf(
         BottomNavItem("Home", "home", Icons.Default.Home),
         BottomNavItem("Profile", "profile", Icons.Default.Person),
-        BottomNavItem("Settings", "settings", Icons.Default.Settings)
+        BottomNavItem("Settings", "settings", Icons.Default.Settings),
+        BottomNavItem("Caluladora", "calculadora", Icons.Default.Person)
     )
     // Estado para gestionar el elemento seleccionado
     var selectedItem by remember { mutableStateOf("home") }
