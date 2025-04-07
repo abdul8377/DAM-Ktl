@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import pe.edu.navigationjpc.ui.presentation.screens.BottomSheetsScreen
 
 import pe.edu.navigationjpc.ui.presentation.screens.CalculatorScreen
 import pe.edu.navigationjpc.ui.presentation.screens.HomeScreen
@@ -17,6 +18,7 @@ fun NavigationHost(navController: NavHostController) {
         composable("profile") { ProfileScreen() }
         composable("settings") { SettingsScreen() }
         composable("calc") { CalculatorScreen() }
+        composable("bottomSheets") { BottomSheetsScreen() }
 
     }
 }
